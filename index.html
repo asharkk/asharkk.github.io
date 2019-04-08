@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>html tu co bản đến nâng cao</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="../resetcss/reset.css" media="screen">
+    <link rel="stylesheet" href="../CSS/first.css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Baumans|Open+Sans" rel="stylesheet">
+    <script src="../resetcss/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <!-- begin tittle-->
+        <h1>Learning HTML 5</h1>
+        <p>A responsive website tutorial</p>
+    </header>
+    <nav>
+       <input type="checkbox" id="nav">
+       <label for="nav"></label>
+        <!--begin horizontal navigation bar -->
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Porfolio</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <!--end: horizontal navigation bar -->
+    </nav>
+    <section class="container">
+        <!--Begin:slider-->
+        <article id="slider-content">
+            <h3>Loren</h3>
+            <p>Hôm nay là một ngày đẹp trời.Không có mữa và nắng cững không quá to.Trời mát dịu.<a href="javascript:void(0)" class="reponsive_button">More...</a></p>
+            <a href="javascript:void(0)" class="button">More</a>
+
+
+
+        </article>
+
+        <div id="slider">
+            <figure>
+                <img src="../img/slide1.jpg" alt="1">
+                <img src="../img/slide2.jpg" alt="2">
+                <img src="../img/slide3.jpg" alt="3">
+                <img src="../img/slide4.jpg" alt="4">
+                <img src="../img/slide5.jpg" alt="5">
+            </figure>
+        </div>
+        <!--end:slider-->
+    </section>
+    <section id="spacer">
+        <p>Một ngày mới sẻ đến và lại được bên e.</p>
+        <!--begin: search bar-->
+        <div class="search">
+            <form action="#">
+                <input type="text" name="sitesearch" value="Enter a word...">
+                <input type="submit" class="button" value="search">
+
+            </form>
+        </div>
+
+        <!--end: search bar-->
+    </section>
+
+    <section id="three_columb">
+        <!--Begin: icon 1-->
+        <article>
+            <img src="../img/icon1.png" alt="some all text">
+            <h3>Dolor sit amet</h3>
+            <p>Loren ipsua dolor amet, consectetur hom nay toi ddi hoc</p>
+        </article>
+
+
+        <!--end: icon 1-->
+
+
+        <!--Begin: icon 2-->
+
+        <article>
+            <img src="../img/icon2.png" alt="some all text">
+            <h3>Đừng xin lỗi nữa</h3>
+            <p>Đừng xin lỗi nữa cứ thế mà đi.giờ nói làm chi.nhà ở cạnh bên mà khác nhau lối về </p>
+        </article>
+
+
+        <!--end: icon 2-->
+
+        <!--Begin: icon 3-->
+
+        <article>
+            <img src="../img/icon3.png" alt="some all text">
+            <h3>Mượn rượu tỏ tình</h3>
+            <p>Em mượn rượu tỏ tình đấy thì sao nào.em yeu anh yêu anh đáy thì sao nào</p>
+        </article>
+    </section>
+    <div class="clear"></div>
+    <!--end: icon 3-->
+
+    <!--4 COLUMB-->
+    <section id="four_columb">
+        <h2>Lorem ipsum</h2>
+        <!--Begin: columb 1-->
+        <article class="img-item">
+            <figure>
+                <a href="#img1" title="some tittle">
+                    <div class="zoom_in"></div>
+                    <img src="../img/lightbox-1sml.jpg" alt="some all text">
+                </a>
+                <figcaption>
+                    <strong>
+                        Photo by:Lorem
+                    </strong>
+                    Hôm nay tôi đi hoc.mẹ dắt tay từng bước.tôi vừa đi vừa khóc
+                </figcaption>
+            </figure>
+        </article>
+        <!--End: columb 1-->
+        <!--Begin: columb 1-->
+        <article class="img-item">
+            <figure>
+                <a href="#img2" title="some tittle">
+                    <div class="zoom_in"></div>
+                    <img src="../img/lightbox-2sml.jpg" alt="some all text">
+                </a>
+                <figcaption>
+                    <strong>
+                        Photo by:ERIK
+                    </strong>
+                    Đường còn xa mà không bước cùng bên nhau
+                    Nhà ở đây mà sao khác nhau lối về
+                </figcaption>
+            </figure>
+        </article>
+
+        <!--End: columb 1-->
+        <!--Begin: columb 1-->
+        <article class="img-item">
+            <figure>
+                <a href="#img3" title="some tittle">
+                    <div class="zoom_in"></div>
+                    <img src="../img/lightbox-3sml.jpg" alt="some all text">
+                </a>
+                <figcaption>
+                    <strong>
+                        Photo by:Thanh Hưng
+                    </strong>
+                    sai người sai thời điểm-đúng người đúng thời điểm
+                </figcaption>
+            </figure>
+        </article>
+        <!--End: columb 1-->
+        <!--Begin: columb 1-->
+        <article class="img-item">
+            <figure>
+                <a href="#img4" title="some tittle">
+                    <div class="zoom_in"></div>
+                    <img src="../img/lightbox-4sml.jpg" alt="some all text">
+                </a>
+                <figcaption>
+                    <strong>
+                        Photo by:Khắc Việt
+                    </strong>
+                    ngày cười hôm nay sao đẹp quá trời.ôi một ngày bình yên và thiêng liêng
+                </figcaption>
+            </figure>
+        </article>
+        <!--End: columb 1-->
+    </section>
+    <section id="lightbox">
+
+        <!-- Begin: Lightbox - Column 1-->
+        <a href="#_" class="lightbox" id="img1">
+            <img src="../img/lightbox-1.jpg">
+        </a>
+        <!-- End: Lightbox - Column 1-->
+        <!-- Begin: Lightbox - Column 2-->
+        <a href="#_" class="lightbox" id="img2">
+            <img src="../img/lightbox-2.jpg">
+        </a>
+        <!-- End: Lightbox - Column 2-->
+        <!-- Begin: Lightbox - Column 3-->
+        <a href="#_" class="lightbox" id="img3">
+            <img src="../img/lightbox-3.jpg">
+        </a>
+        <!-- End: Lightbox - Column 3-->
+        <!-- Begin: Lightbox - Column 4-->
+        <a href="#_" class="lightbox" id="img4">
+            <img src="../img/lightbox-4.jpg">
+        </a>
+        <!-- End: Lightbox - Column 4-->
+    </section>
+    <section id="mutiple_columb">
+        <section class="columb1">
+            <article>
+                <h3>Mình cưới nhau đi</h3>
+                <p>Hay là mình, mình cưới nhau đi.
+                    Hay là mình, mình cưới nhau đi.
+                    Thanh xuân kia đi qua vội lắm ai ơi.
+                    Cho anh xây tình nồng trọn kiếp bên em.
+                    Hay là mình, mình cưới nhau đi.
+                    Hay là mình, mình cưới nhau đi. </p>
+            </article>
+        </section>
+        <section class="columb1">
+            <article class="row">
+                <img src="../img/icon4.png" class="roket" alt="some all text">
+                <p>minh kết thúc nhé em chả còn như luc đầu mình đã yêu như vậy</p>
+
+
+            </article>
+            <article class="row">
+                <img src="../img/icon5.png" class="clock" alt="some all text">
+                <p>yêu gặp nhau là duyên nên hết duyên tự đi có lẽ nào anh hết yêu em rồi</p>
+
+
+            </article>
+
+
+
+        </section>
+
+
+    </section>
+
+    <footer>
+        <section id="extra_content">
+            <article class="columb">
+                <h4>Lorem Isumb</h4>
+                Eram consequat si anim aute, voluptate nisi culpa fabulas culpa. Ea ab nulla
+                commodo, dolore est excepteur ut fugiat, probant cohaerescant id doctrina, de
+                noster quorum qui commodo, eram nam expetendis do est quid fugiat ex laboris ex
+                de nam fugiat laboris, nulla offendit iis expetendis.
+
+            </article>
+            <article class="columb midlist">
+                <h4>Consectetuer</h4>
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)">Lorem ipsum dolor sit amet.</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">Lorem ipsum dolor sit amet.</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">Lorem ipsum dolor sit amet.</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">Lorem ipsum dolor sit amet.</a>
+                    </li>
+                </ul>
+            </article>
+            <article class="column rightlist">
+                <h4>Dolor sit amet</h4>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img alt="Some alt text" src="../img/lightbox-1sml.jpg" />
+                            <span>Eram consequat si anim aute, voluptate nisi.</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <img alt="Some alt text" src="../img/lightbox-2sml.jpg" />
+                            <span>Eram consequat si anim aute, voluptate nisi.</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <img alt="Some alt text" src="../img/lightbox-3sml.jpg" />
+                            <span>Eram consequat si anim aute, voluptate nisi.</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="clear" />
+            </article>
+        </section>
+        <section id="page-owner-info">
+            <div class="wrapper">
+                <!-- Begin: Copyright -->
+                <div class="copyright">© Copyright 2016 by <a href="http://www.example.com">Example</a>. All Rights Reserved.
+                </div>
+                <!-- End: Copyright -->
+                <!-- Begin: Social network items -->
+                <div class="social">
+                    <a href="javascript:void(0)">
+                        <img src="../img/icon6.png" alt="Some alt text" width="25" />
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="../img/icon7.png" alt="Some alt text" width="25" />
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="../img/icon8.png" alt="Some alt text" width="25" />
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="../img/icon9.png" alt="Some alt text" width="25" />
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="../img/icon10.png" alt="Some alt text" width="25" />
+                    </a>
+                </div>
+                <!-- End: Social network items -->
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>
